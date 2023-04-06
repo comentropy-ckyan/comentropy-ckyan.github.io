@@ -1,1 +1,0 @@
-# comentropy-ckyan.github.io
