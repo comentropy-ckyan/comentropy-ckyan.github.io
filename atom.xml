@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">Comentropy&#39;s Blog</title>
     <subtitle type="html">MemE 是一个强大且可高度定制的 GoHugo 博客主题，专为个人博客设计。</subtitle>
-    <updated>2023-04-11T20:16:32&#43;08:00</updated>
+    <updated>2023-04-13T19:40:57&#43;08:00</updated>
     <id>https://comentropy-ckyan.github.io/</id>
     <link rel="alternate" type="text/html" href="https://comentropy-ckyan.github.io/" />
     <link rel="self" type="application/atom&#43;xml" href="https://comentropy-ckyan.github.io/atom.xml" />
@@ -2321,7 +2321,7 @@
             <title type="text">NKCTF2023_WriteUp</title>
             <link rel="alternate" type="text/html" href="https://comentropy-ckyan.github.io/posts/nkctf2023_writeup/" />
             <id>https://comentropy-ckyan.github.io/posts/nkctf2023_writeup/</id>
-            <updated>2023-04-06T22:32:35&#43;08:00</updated>
+            <updated>2023-04-13T19:30:34&#43;08:00</updated>
             <published>2023-04-06T18:29:29&#43;08:00</published>
             <author>
                     <name>comentropy</name>
@@ -2480,7 +2480,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h3 id=&#34;baby_rop&#34;&gt;baby_rop&lt;/h3&gt;
-&lt;p&gt;这个题没给libc，我以为能search到的，最后试了试有一些库找不到，非常抱歉了，给师傅们磕一个，下次一定给libc。题目开了canary，所以首先格式化字符串泄露，在my_read里有null byte off by one，可以溢出修改rbp的最后一个字节为0，在main函数里我加了leave，所以会自动栈迁移到rbp的那个地方，因为迁移地址随机，所以可以在栈中写ret，以满足rop链可以正常执行。&lt;/p&gt;
+&lt;p&gt;题目开了canary，所以首先格式化字符串泄露，在my_read里有null byte off by one，可以溢出修改rbp的最后一个字节为0，在main函数里我加了leave，所以会自动栈迁移到rbp的那个地方，因为迁移地址随机，所以可以在栈中写ret，以满足rop链可以正常执行。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;../../images/image-20230406190056716.png&#34; alt=&#34;image-20230406190119672&#34;&gt;&lt;/p&gt;
 &lt;p&gt;exp如下：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
