@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">Comentropy&#39;s Blog</title>
     <subtitle type="html">MemE 是一个强大且可高度定制的 GoHugo 博客主题，专为个人博客设计。</subtitle>
-    <updated>2023-04-18T16:49:52&#43;08:00</updated>
+    <updated>2023-04-18T16:58:24&#43;08:00</updated>
     <id>https://comentropy-ckyan.github.io/</id>
     <link rel="alternate" type="text/html" href="https://comentropy-ckyan.github.io/" />
     <link rel="self" type="application/atom&#43;xml" href="https://comentropy-ckyan.github.io/atom.xml" />
@@ -1016,16 +1016,18 @@
             <title type="text">2023 NKCTF Write Up</title>
             <link rel="alternate" type="text/html" href="https://comentropy-ckyan.github.io/posts/nkctf2023_writeup/" />
             <id>https://comentropy-ckyan.github.io/posts/nkctf2023_writeup/</id>
-            <updated>2023-04-18T16:49:16&#43;08:00</updated>
+            <updated>2023-04-18T16:57:18&#43;08:00</updated>
             <published>2023-04-07T18:29:29&#43;08:00</published>
             <author>
                     <name>comentropy</name>
                     <uri>https://comentropy-ckyan.github.io/</uri>
                     <email>comentropy@foxmail.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">PWN By Comentropy ez_stack 这里留了gadget，如果发现不了可以ROPgadget直接扫，发现为sro……</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">这里先给一下官方wp的链接：NKCTF2023 官方WP (qq.com) 笔者这里就只记录了我出的题，……</summary>
             
-                <content type="html">&lt;h2 id=&#34;pwn-by-comentropy&#34;&gt;PWN By Comentropy&lt;/h2&gt;
+                <content type="html">&lt;p&gt;这里先给一下官方wp的链接：&lt;a href=&#34;https://mp.weixin.qq.com/s/TR_WWQR2Xl8SyfYTDulbrw&#34;&gt;NKCTF2023 官方WP (qq.com)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;笔者这里就只记录了我出的题，想要其他wp请点击上方链接。&lt;/p&gt;
+&lt;h2 id=&#34;pwn-by-comentropy&#34;&gt;PWN By Comentropy&lt;/h2&gt;
 &lt;h3 id=&#34;ez_stack&#34;&gt;ez_stack&lt;/h3&gt;
 &lt;p&gt;这里留了gadget，如果发现不了可以ROPgadget直接扫，发现为srop，然后就正常srop流程即可。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;../../images/image-20230406190056716.png&#34; alt=&#34;image-20230406190056716&#34;&gt;&lt;/p&gt;
