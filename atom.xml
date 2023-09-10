@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">Comentropy&#39;s Blog</title>
     <subtitle type="html">MemE 是一个强大且可高度定制的 GoHugo 博客主题，专为个人博客设计。</subtitle>
-    <updated>2023-06-07T16:35:30&#43;08:00</updated>
+    <updated>2023-09-10T22:24:10&#43;08:00</updated>
     <id>https://comentropy-ckyan.github.io/</id>
     <link rel="alternate" type="text/html" href="https://comentropy-ckyan.github.io/" />
     <link rel="self" type="application/atom&#43;xml" href="https://comentropy-ckyan.github.io/atom.xml" />
@@ -20,16 +20,17 @@
             <title type="text">2023 ShaanXiCup Write Up</title>
             <link rel="alternate" type="text/html" href="https://comentropy-ckyan.github.io/posts/shaanxicup2023_writeup/" />
             <id>https://comentropy-ckyan.github.io/posts/shaanxicup2023_writeup/</id>
-            <updated>2023-06-06T20:44:48&#43;08:00</updated>
+            <updated>2023-09-10T22:10:54&#43;08:00</updated>
             <published>2023-06-06T20:31:43&#43;08:00</published>
             <author>
                     <name>comentropy</name>
                     <uri>https://comentropy-ckyan.github.io/</uri>
                     <email>comentropy@foxmail.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">PWN By Comentropy Information_System bss段溢出修改登录账号和密码分别为root,t00r,然后根据如下函数得到……</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">笔者这里就只记录了我出的题。其他题解可以前往当时比赛平台。 PWN By Comentropy Information_System bss段溢出修改登……</summary>
             
-                <content type="html">&lt;h2 id=&#34;pwn-by-comentropy&#34;&gt;PWN By Comentropy&lt;/h2&gt;
+                <content type="html">&lt;p&gt;笔者这里就只记录了我出的题。其他题解可以前往当时比赛平台。&lt;/p&gt;
+&lt;h2 id=&#34;pwn-by-comentropy&#34;&gt;PWN By Comentropy&lt;/h2&gt;
 &lt;h3 id=&#34;information_system&#34;&gt;Information_System&lt;/h3&gt;
 &lt;p&gt;bss段溢出修改登录账号和密码分别为&lt;code&gt;root&lt;/code&gt;,&lt;code&gt;t00r&lt;/code&gt;,然后根据如下函数得到随机数初始种子为&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;( time(0) - (time(0) % 100) ) ^ 0xdeadbeef&lt;/code&gt; 这一步主要是对时间戳取整，防止因为延迟问题导致时间获取无法相同，之后在根据验证要求得到随机数即可绕过。&lt;/p&gt;
